@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Zapcard
+Comment=Zapcard P2P Cryptocurrency
+Comment[fr]=Zapcard, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Zapcard, eşten eşe kriptografik sanal para birimi
+Exec=zapcard-qt %u
+Terminal=false
+Type=Application
+Icon=zapcard128
+MimeType=x-scheme-handler/zapcard;
+Categories=Office;Finance;
