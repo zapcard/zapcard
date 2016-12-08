@@ -1223,13 +1223,18 @@ int64_t GetBlockValue(int nHeight, int64_t nFees)
 
     if(nHeight < 3)
     {
-        nSubsidy = 5000000 * COIN; //2% Bounties/Promotions
+        nSubsidy = 5000000 * COIN;
+    }
+
+    if(nHeight > 2310)
+    {
+        nSubsidy = 0.00000010 * COIN;
     }
 
     return nSubsidy + nFees;
 }
 
-static const int64_t nTargetTimespan = 1 * 24 * 60 * 60; // 1 day
+static const int64_t nTargetTimespan = 1 * 60 * 60;
 static const int64_t nTargetSpacing = 2 * 60; //2 minutes
 static const int64_t nInterval = nTargetTimespan / nTargetSpacing;
 
