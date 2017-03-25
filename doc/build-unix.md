@@ -51,12 +51,16 @@ Dependency Build Instructions: Ubuntu & Debian
 ----------------------------------------------
 Build requirements:
 
+	sudo apt-get update
+	sudo apt-get upgrade
 	sudo apt-get install build-essential
 	sudo apt-get install libtool autotools-dev autoconf
 	sudo apt-get install libssl-dev
 
 for Ubuntu 12.04 and later:
 
+	sudo apt-get update
+	sudo apt-get upgrade
 	sudo apt-get install libboost-all-dev
 
  db4.8 packages are available [here](https://launchpad.net/~zapcard/+archive/zapcard).
