@@ -63,11 +63,11 @@ for Ubuntu 12.04 and later:
 	sudo apt-get upgrade
 	sudo apt-get install libboost-all-dev
 
- db4.8 packages are available [here](https://launchpad.net/~zapcard/+archive/zapcard).
  You can add the repository using the following command:
 
         sudo apt-get install software-properties-common
-	sudo add-apt-repository ppa:zapcard/zapcard
+	sudo apt-get install git
+	git clone https://github.com/zapcard/zapcard.git
         sudo apt-get update
 
  Ubuntu 12.04 and later have packages for libdb5.1-dev and libdb5.1++-dev,
