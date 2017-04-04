@@ -129,7 +129,12 @@ miniupnpc
 	make
 	sudo su
 	make install
-
+        
+miniupnpc Ubuntu 16.04
+         git clone https://github.com/miniupnp/miniupnp.git
+         cd miniupnp
+         cd miniupnpc
+         make
 
 Berkeley DB
 -----------
