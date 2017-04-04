@@ -135,6 +135,8 @@ miniupnpc Ubuntu 16.04
          cd miniupnp
          cd miniupnpc
          make
+	 sudo su
+	 make install
 
 Berkeley DB
 -----------
